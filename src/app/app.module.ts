@@ -12,7 +12,9 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { NzListModule } from 'ng-zorro-antd/list';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
-
+import { NzStatisticModule } from 'ng-zorro-antd/statistic';
+import { NzTableModule } from 'ng-zorro-antd/table';
+import { NzCardModule } from 'ng-zorro-antd/card';
 //App Components
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,6 +38,9 @@ import { OverviewComponent } from './components/dashboards/overview/overview.com
     NzToolTipModule,
     NzLayoutModule,
     NzBreadCrumbModule,
+    NzStatisticModule,
+    NzTableModule,
+    NzCardModule,
     AppRoutingModule
   ],
   providers: [],

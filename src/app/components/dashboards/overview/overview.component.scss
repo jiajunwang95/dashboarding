@@ -1,0 +1,44 @@
+tr.starting_row{
+    background-color : #cdad02b0;
+    width: 100%;
+    position: absolute;
+    padding : 5px;
+    text-align: center;
+    height : 100%
+}
+div.title{
+    background : #cdad02b0;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding : 10px;
+
+}
+h1.title{
+    background-color: transparent;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.topthree_column {
+    padding : 15px 15px 15px 15px
+}
+::ng-deep .topthree_card > .ant-card-body{
+    padding:0px;
+}
+.topthree_label{
+    margin: 5px 0px 5px 0px;
+    font-family: Open_Sans_Bold;
+    font-size : 20px;
+    text-transform : uppercase;
+    text-align: center;
+}
+
+.image_container img{
+    height: 40px;
+    width: 40px;
+}
